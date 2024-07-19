@@ -17,7 +17,7 @@ const Contact = () => {
 const handleSubmit = async (e) => {
  e.preventDefault()
   try {
-    const response = await Axios.post('https://portfolio-psqds5e2s-vinaykumardag1s-projects.vercel.app/',{name,email,message})
+    const response = await Axios.post('https://portfolio-psqds5e2s-vinaykumardag1s-projects.vercel.app/send-email',{name,email,message})
     alert(response.data.message)
   } catch (error) {
     console.error(error);
