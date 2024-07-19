@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import Navbar from '../Navbar'
 import phone_icon from './Contact_icons/phone-icon.svg'
 import email_icon from './Contact_icons/E-mail.svg'
 import location_icon from './Contact_icons/location-icon.svg'
