@@ -17,7 +17,7 @@ const Contact = () => {
 const handleSubmit = async (e) => {
  e.preventDefault()
   try {
-    const response = await Axios.post('http://localhost:5000/send-email',{name,email,message})
+    const response = await Axios.post('https://portfolio-api-omega-rouge.vercel.app/send-email',{name,email,message})
     alert(response.data.message)
   } catch (error) {
     console.error(error);
