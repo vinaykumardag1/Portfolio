@@ -12,7 +12,7 @@ app.use(cors());
 
 
 app.get("/",(req,res)=>{
-   res.rend("Hell world")
+   res.send("Hell world")
 })
 app.post('/send-email', (req, res) => {
   const { name, email, message } = req.body;
