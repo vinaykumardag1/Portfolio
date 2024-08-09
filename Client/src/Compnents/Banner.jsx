@@ -11,7 +11,7 @@ const Banner = () => {
         <button className='px-5 py-2 bg-gradient-to-t from-purple-500 to-pink-500 rounded-xl' >Hire me</button>
         </div>
       </div>
-      <div className='rounded flex justify-center'>
+      <div className='rounded h-2/3 flex justify-center'>
         <img src={banner_image} alt="my image protrait image " className=" h-2/3 rounded-3xl overflow-hidden"  />
       </div>
     </div>
