@@ -12,7 +12,7 @@ const Banner = () => {
         </div>
       </div>
       <div className='rounded flex justify-center'>
-        <img src={banner_image} alt="my image protrait image " className=" h-auto rounded-3xl overflow-hidden"  />
+        <img src={banner_image} alt="my image protrait image " className=" h-80 rounded-3xl overflow-hidden"  />
       </div>
     </div>
   )
