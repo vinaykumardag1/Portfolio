@@ -1,5 +1,5 @@
 import React from 'react'
-import banner_image from '../assets/portfolio.png' 
+import banner_image from '../assets/profile-Photoroom.png' 
 const Banner = () => {
   return (
     <div className='flex flex-col-reverse md:grid grid-cols-2 md:px-10 py-5'>
