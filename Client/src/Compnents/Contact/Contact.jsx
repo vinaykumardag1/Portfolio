@@ -46,7 +46,8 @@ const handleSubmit = async (e) => {
                   <li><a href="mailto:vinaykumardag1gmail.com">vinaykumardag1@gmail.com</a></li>
                 </ul>
                 <ul className='p-6 rounded-xl bg-slate-700 duration-1000 hover:scale-110'>
-                  <li className='flex gap-3 text-3xl font-semibold py-3'><img src={location_icon} alt="" />ADDRESS</li>
+              
+                  <li className='flex gap-3 text-3xl font-semibold py-3'><img src={location_icon} alt="" />
                   <li  className='text-sm'>Dhanalakshmipuram,Nellore,<br/>Andhrapradesh.</li>
                 </ul>
                 <ul className='p-6 flex gap-10 '>
